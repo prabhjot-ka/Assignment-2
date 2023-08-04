@@ -1,0 +1,250 @@
+/* Setting background color for the entire page */
+
+body {
+    background-color: floralwhite;
+}
+
+/* Styling for the logo */
+.logo{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: gold;
+    font-family: 'Bungee Spice', cursive;
+}
+
+/* Styling for the navigation bar */
+.navbar {
+    display: flex;
+    font-family: 'Nabla', cursive;
+}
+
+/* Styling for navigation links within the navbar */
+.navbar a {
+    font-size: 40px;
+    padding-right: 100px;
+    color: yellowgreen;
+    font-weight: 500;
+}
+
+/* Styling for navigation links on hover */
+.navbar a:hover {
+    color: var(--main-color);
+}
+
+/* Styling for dark mode text */
+.darkmode-text h1 {
+    color: navy;
+    text-align: center;
+    padding-top: 13px;
+    font-size: 100px;
+}
+
+/* Styling for the menu icon */
+#menu-icon {
+    font-size: 2rem;
+    cursor: pointer;
+    display: none;
+}
+
+/* Styling for a heading with a span element */
+.heading span {
+    color: blue;
+    font-weight: 1000;
+    font-size: xx-large;
+}
+
+/* Styling for the home section */
+.home {
+    width: 100%;
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 1.5rem;
+    font-family: 'Courgette', cursive;
+}
+
+/* Styling for images within the home section */
+.home-img img {
+    width: 100%;
+   
+}
+
+/* Styling for text within the home section */
+.home-text h2 {
+    font-size: 300%;
+    color: gold;
+}
+
+/* Styling for subheadings within the home section */
+.home-text h3 {
+    font-size: 300%;
+    margin: 1rem 0 1rem;
+    color: gold;
+
+}
+
+/* Styling for a generic button */
+.btn {
+    display: inline-block;
+    background: var(--main-color);
+    padding: 10px 20px;
+    border-radius: 0.5rem;
+    color: brown;
+}
+
+/* Styling for the button on hover */
+.btn:hover {
+    background: #ffa400;
+}
+
+/* Styling for a heading */
+.heading {
+    text-align: center;
+}
+
+/* Styling for a heading with a span element */
+.heading span {
+    color: blue;
+    font-weight: 1000;
+    font-size: xx-large;
+    
+}
+
+/* Styling for a secondary heading */
+.heading h2 {
+    font-size: var(--h2-font);
+}
+
+/* Styling for the menu container */
+.menu-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, auto));
+    gap: 1.5rem;
+    align-items: center;
+}
+
+/* Styling for images within the menu container */
+.menu-img {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    padding-top: 5%; 
+   
+    
+}
+
+/* Styling for box elements */
+.box .bx {
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 20px;
+    background: var(--main-color);
+    border-radius: 0 0.5rem 0 0.5rem;
+    padding: 5px 8px;
+}
+
+/* Styling for box elements on hover */
+.box .bx:hover {
+    background: #ffa400;
+}
+
+/* Styling for the services container */
+.services-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, auto));
+    gap: 1.5rem;
+    margin-top: 5rem;
+}
+
+/* Styling for service boxes */
+.s-box {
+    text-align: center;
+    color: lime;
+}
+
+/* Styling for images within service boxes */
+.s-box img {
+    width: 310px;
+    color: lime;
+   
+}
+
+/* Styling for headings within service boxes */
+.s-box h4 {
+    margin: 4px 0 10px;
+    color: fuchsia;
+}
+
+/* Styling for the contact section */
+.cotanct {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+    gap: 1.5rem;
+}
+
+/* Styling for headings within the contact section */
+.contact-box h4 {
+    margin-bottom: 1rem;
+    color: khaki;
+    font-size: 150%;
+}
+
+/* Styling for spans within the contact section */
+.contact-box span {
+    color:hotpink;
+    font-size: 300%;
+}
+
+/* Styling for social media links */
+.social{
+    color: red;
+}
+
+/* Styling for social media icons on hover */
+.social i:hover {
+    color: navajowhite;
+}
+
+/* Styling for links within contact boxes */
+.contact-box li a {
+    color: var(--text-color);
+}
+
+/* Styling for links within contact boxes on hover */
+.contact-box li a:hover {
+    color: var(--main-color);
+}
+
+/* Styling for social media section */
+.facebook {
+    text-align: left;
+}
+
+/* Styling for social media section */
+.instagram {
+    text-align: left;
+}
+
+/* Styling for social media section */
+.twitter {
+    text-align: left;
+}
+
+/* Styling for paragraphs */
+.paragraph {
+    color: blue;
+}
+
+/* Styling for order buttons */
+.order-button {
+    color: maroon;
+}
+
+/* Styling for paragraphs within the footer */
+footer p {
+    color: #ffa400;
+}
+
+

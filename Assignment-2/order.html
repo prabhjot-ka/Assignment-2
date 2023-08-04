@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza Order - Order Now</title>
+    
+    <!-- Link to style.css -->
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Link to javascript -->
+    
+    <script src="custom_js.js"></script>
+</head>
+<body>
+
+    <!-- Header section -->
+    <header>
+        <h1>Place Your Pizza Order</h1>
+    </header>
+
+     <!-- Main content section -->
+    <main>
+
+        <!-- Form to collect user's pizza order information and submit it to "submit_order.php" -->
+        <form action="submit_order.php" method="post">
+            <!-- Name input field -->
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+             <!-- Email input field -->
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <!-- Phone input field -->
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+             <!-- Address input field -->
+            <label for=" your address">Your Address</label>
+            <input type="address" id="address" name="address" required>
+             <br>
+
+             <!-- Payment type selection -->
+            <label for="payment">Select Payment Type</label>
+            <select id="payment-type" name="payment-type">
+                <option value="online">Online</option>
+                <option value="cash on delivery">delivery</option>
+            </select>
+
+            <!-- Pizza size selection -->
+            <label for="pizza-size">Select Pizza Size:</label>
+            <select id="pizza-size" name="pizza-size">
+                <option value="small">Small</option>
+                <option value="medium">Medium</option>
+                <option value="large">Large</option>
+            </select>
+            <br>
+
+            <!-- Submit button to submit the order form -->
+            <input type="submit" value="Submit Order">
+        </form>
+    </main>
+
+    <!-- Footer section -->
+    <footer>
+        <p>&copy; 2023 Pizza Delivery</p>
+    </footer>
+</body>
+</html>
